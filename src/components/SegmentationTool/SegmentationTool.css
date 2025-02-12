@@ -20,3 +20,27 @@
 .input {
   width: 30vw;
 }
+
+@media (max-width: 1060px) {
+  .container-section {
+    width: 100vw;
+  }
+
+  .button, .input {
+    margin-top: 10px;
+    width: 30vw;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 441px) {
+  .container-section {
+    width: 100vw;
+  }
+
+  .button, .input {
+    margin-top: 10px;
+    width: 50vw;
+    overflow: hidden;
+  }
+}
